@@ -1,0 +1,76 @@
+body {
+  background-color: #1a2a79;
+}
+
+#guess {
+  font-size: 20px;
+  padding: 1rem;
+  color: #ccc;
+  position: relative;
+  top: 190px;
+  letter-spacing: 3px;
+}
+
+#demo {
+  position: relative;
+  top: 60px;
+}
+
+h2 {
+  position: relative;
+  top: 190px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+hr {
+  width: 300px;
+  position: relative;
+  top: 300px;
+}
+
+button {
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 12px;
+  width: 300px;
+  outline: none;
+  border: none;
+  margin-top: 200px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: #101010;
+    color: white;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  button {
+    width: 150px;
+    margin-top: 20px;
+  }
+}
