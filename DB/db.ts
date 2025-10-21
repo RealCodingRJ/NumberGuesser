@@ -9,4 +9,6 @@ export async function AppsClient(data: string) {
   const coll = db.collection("guess");
 
   await coll.insertOne({ data: data });
+
+  client.close();
 }
