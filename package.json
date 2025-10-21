@@ -1,8 +1,27 @@
 {
   "dependencies": {
+    "@types/node": "^24.9.1",
+    "deno": "^2.5.4",
+    "express": "^5.1.0",
     "mongodb": "^6.20.0"
   },
   "devDependencies": {
-    "@types/node": "^24.9.1"
-  }
+    "@types/express": "^5.0.3"
+  },
+  "name": "guess-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealCodingRJ/NumberGuesser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RealCodingRJ/NumberGuesser/issues"
+  },
+  "homepage": "https://github.com/RealCodingRJ/NumberGuesser#readme"
 }
